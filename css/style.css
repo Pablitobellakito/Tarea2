@@ -4,11 +4,12 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.6rem;
   line-height: 1.5;
-  background-color: #6d8846;
+  background-color: #729c37;
 }
 
 .site-header {
-  background-image: url("/img/Equipo.jpg");
+  background-image: url("/img/green.jpg");
+  background-size: cover;
   height: 5rem;
   min-height: 20rem;
   display: flex;
@@ -17,7 +18,7 @@ body {
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 65%;
 }
 
 * {

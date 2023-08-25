@@ -203,3 +203,23 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+
+.center {
+  text-align: center;
+}
+
+.persona {
+  margin-top: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  margin: 0 10px;
+  max-width: 100%;
+  height: auto;
+}

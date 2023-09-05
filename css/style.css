@@ -4,15 +4,14 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.6rem;
   line-height: 1.5;
-  background-color: #729c37;
+  background-color: #3f423c;
 }
 
 .site-header {
-  background-image: url("/img/green.jpg");
+  background-image: url("/img/adobe.png");
   background-size: cover;
   height: 5rem;
-  min-height: 20rem;
-  display: flex;
+  min-height: 25rem;
   justify-content: center;
 }
 
@@ -27,6 +26,7 @@ html {
   padding: 0;
 }
 
+
 .presentacion {
   background: #ccc;
   height: 200px;
@@ -35,8 +35,20 @@ html {
   text-align: center;
 }
 
+
+.footer {
+  text-align: center;
+}
+.center-buttons {
+  text-align: center;
+}
+
+.center-buttons button {
+  margin: 10px; /* Añade margen entre los botones si lo deseas */
+}
+
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
   text-align: center;
 }
@@ -147,7 +159,7 @@ button:hover {
   background-color: #f1f5eb;
   border-radius: 10px; /* Adjust the value to control the roundness of the corners */ /* Adding a background color to emphasize the rounded corners */
   padding: 20px;
-  width: 46%;
+  width: 90%;
   margin: 2rem;
   padding: 2rem;
   border: rgb(106, 182, 30) 1px solid;
@@ -158,6 +170,11 @@ button:hover {
   display: flex;
   justify-content: center;
   margin-left: 20%;
+}
+
+.subjects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .texto1 {

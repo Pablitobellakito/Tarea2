@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Contacto</title>
+    <link rel="stylesheet" href="../dist/css/lightbox.min.css">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
         <a class="cta" href="/Contacto.html"><button>Contacto</button></a>
     </header>
 
-    <h1>Equipo de trabajo</h1>
+    <h1>Portafolio de Pablo Gómez</h1>
     <main class="contenedor">
         <div class="equipo">
             <section class="persona">
@@ -51,12 +52,111 @@
             <button><a href="/Alfonso.html">Siguiente Integrante</a></button>
           </div>
     </main>
-</body>
+    
+    <section id="galeria">
+        <h2>Galería de Fotos</h2>
+        <div class="fila">
+            <div class="imagen">
+                <a href="/img/foto1.jpg" data-lightbox="galeria" data-title="Descripción de la imagen 1">
+                    <img class="foto" src="/img/foto1.jpg" alt="Imagen 1">
+                </a>
+            </div>
+            <div class="imagen">
+                <a href="/img/foto2.jpg" data-lightbox="galeria" data-title="Descripción de la imagen 1">
+                    <img class="foto" src="/img/foto2.jpg" alt="Imagen 1">
+                </a>
+            </div>
+            <div class="imagen">
+                <a href="/img/foto3.jpg" data-lightbox="galeria" data-title="Descripción de la imagen 1">
+                    <img class="foto" src="/img/foto3.jpg" alt="Imagen 1">
+                </a>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="imagen">
+                <a href="/img/foto4.jpg" data-lightbox="galeria" data-title="Descripción de la imagen 1">
+                    <img class="foto" src="/img/foto4.jpg" alt="Imagen 1">
+                </a>
+            </div>
+            <div class="imagen">
+                <a href="/img/foto5.jpg" data-lightbox="galeria" data-title="Descripción de la imagen 1">
+                    <img class="foto" src="/img/foto5.jpg" alt="Imagen 1">
+                </a>
+            </div>
+            <div class="imagen">
+                <a href="/img/foto6.jpg" data-lightbox="galeria" data-title="Descripción de la imagen 1">
+                    <img class="foto" src="/img/foto6.jpg" alt="Imagen 1">
+                </a>
+            </div>
+        </div>
+    </section>
 
-<footer>
-    <div class="footer">
-        <p>© 2023 Los Photoshopers. All rights reserved.</p>
+    <section id="formulario">
+        <div class="formulario">
+            <h2>Formulario de Contacto</h2>
+            <form id="contact-form" action="#" method="post">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="campo">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <div class="boton">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+            <div id="mensaje-exito" class="exito">
+                <p>Tu mensaje ha sido enviado con éxito. ¡Gracias!</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="contenedor-intereses">
+        <!-- Sección de Deportes -->
+        <section class="interes">
+            <h2>Mi Deporte Favorito</h2>
+            <p>Pablo ama trotar desde niño porque su padre lo llevaba consigo en sus carreras matutinas. El sonido del correr era un lazo enorme entre mi padre y yo. Cada trote era un tributo a su amor y enseñanzas que dejó mi padre (no ha muerto eh)</p>
+            <div class="imagen1">
+                <img class="foto" src="/img/foto8.jpg" alt="Imagen 1">
+            </div>
+        </section>
+
+        <!-- Sección de Series de TV -->
+        <section class="interes">
+            <h2>Jugar videojuegos</h2>
+            <p>Mi mayor pasatiempo en la actualidad es jugar computador, creo que paso la mayor parte del día frente a un computador porque me entretiene jugar y además lo que estudio que va relacionado con lo mismo</p>
+            <div class="imagen1">
+                <img class="foto" src="/img/foto9.jpeg" alt="Imagen 1">
+            </div>
+        </section>
+
+        <!-- Sección de Libros -->
+        <section class="interes">
+            <h2>Mis videosjuegos favoritos</h2>
+            <p>En realidad tengo varios, llevo casi 10 años jugando role-play en GTA, jugaba mucho SAMP, me fui a jugar RAGEMP en GTA5 pero no es lo mismo, después me volví entusiasta por el Dead By Daylight y actualmente dedico gran parte de mi tiempo al WOW (siempre alianza)</p>
+            <div class="imagen1">
+                <img class="foto" src="/img/foto7.jpg" alt="Imagen 1">
+            </div>
+        </section>
     </div>
-</footer>
 
+    
+    <script src="/js/script.js"></script>
+
+    <footer>
+        <div class="footer">
+            <p>© 2023 Los Photoshopers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
